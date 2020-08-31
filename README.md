@@ -1,3 +1,8 @@
-# Clockify CLI (homebrew tap) [![Powered By: GoReleaser](https://img.shields.io/badge/powered%20by-goreleaser-green.svg?style=flat-square)](https://github.com/goreleaser)
+My Homebrew Tap
+===============
 
-Formula to install [Clockify CLI](https://github.com/lucassabreu/clockify-cli) using [homebrew](https://brew.sh/)
+[![Powered By: GoReleaser](https://img.shields.io/badge/powered%20by-goreleaser-green.svg?style=flat-square)](https://github.com/goreleaser)
+
+My Brews:
+
+* [Clockify CLI](https://github.com/lucassabreu/clockify-cli) 

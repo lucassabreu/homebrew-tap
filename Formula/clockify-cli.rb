@@ -2,16 +2,16 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.12.2"
+  version "0.13.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.12.2/clockify-cli_0.12.2_Darwin_x86_64.tar.gz"
-    sha256 "f484ac4c17b29aeeaa63d67f3550cbed82a66645daf58fd0f9a41dbe1c2e83c4"
+    url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.13.0/clockify-cli_0.13.0_Darwin_x86_64.tar.gz"
+    sha256 "36ac25e63dd8ab1d98877156a63ff5fa04550ed0f93b4a2ea77ca18e07db9f38"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.12.2/clockify-cli_0.12.2_Linux_x86_64.tar.gz"
-      sha256 "3721e8148c2fc12fccf15a069c8fc4c8430daf98aa77585bde27c39156d1116a"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.13.0/clockify-cli_0.13.0_Linux_x86_64.tar.gz"
+      sha256 "61e5df26be3fe4d4d67c9eb77fb2c11700145bbd11d988bbd75fa941466395d9"
     end
   end
 

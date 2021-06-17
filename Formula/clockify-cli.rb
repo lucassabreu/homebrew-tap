@@ -5,24 +5,24 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.16.1"
+  version "0.17.0"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.16.1/clockify-cli_0.16.1_Darwin_x86_64.tar.gz"
-      sha256 "145f72e2c31108a39a626ebe2a1b7f7cf24a23f3053ecb6365704e8fac3e0566"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.17.0/clockify-cli_0.17.0_Darwin_x86_64.tar.gz"
+      sha256 "bef8a8cc6101f5c960eb34c3c7bd61ace6009cb8fe024c7ca4a0e7e926fc1615"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.16.1/clockify-cli_0.16.1_Linux_x86_64.tar.gz"
-      sha256 "ce8b2b3366b0fe377a02b6215fc8483d381f2ad0ef1a3db94dfd0e1e23ae8c9f"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.17.0/clockify-cli_0.17.0_Linux_x86_64.tar.gz"
+      sha256 "c07472aa6c04631cbc66eef4cd9e916836960cadb997eae44f1dc54e763a898d"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.16.1/clockify-cli_0.16.1_Linux_arm64.tar.gz"
-      sha256 "c94dfd82de576709e9b00363507b584d995c0134ebd166587b261527fc3bf009"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.17.0/clockify-cli_0.17.0_Linux_arm64.tar.gz"
+      sha256 "5f119b28644dee016daedcf8f8c4aec60ad5452d8ca43ab282edb0d728ad8d94"
     end
   end
 

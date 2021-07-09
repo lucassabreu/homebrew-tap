@@ -5,28 +5,28 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.17.2"
+  version "0.18.0"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.17.2/clockify-cli_0.17.2_Darwin_x86_64.tar.gz"
-      sha256 "66c737d983ef841a752667c759b0efaf6168366deb974a901ebaa059d688adb0"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.18.0/clockify-cli_0.18.0_Darwin_x86_64.tar.gz"
+      sha256 "e0119c782054eefcbaf87eb9ebbbb9124fe6740d8d0843f27ade5ab46f40db7d"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.17.2/clockify-cli_0.17.2_Darwin_arm64.tar.gz"
-      sha256 "56f5971d4a4be7c92ea8532455b2d61f2f8b9454cd901e342b604c931dff7fb1"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.18.0/clockify-cli_0.18.0_Darwin_arm64.tar.gz"
+      sha256 "4e7e34de70dd2ba725e445846761123c73d6e3ea723dd2e37fb2add59dc67e9c"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.17.2/clockify-cli_0.17.2_Linux_x86_64.tar.gz"
-      sha256 "e4930dd87bddf3b676b2070badbc928d8fa310e03903e40b1b2db5b465e6a358"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.18.0/clockify-cli_0.18.0_Linux_x86_64.tar.gz"
+      sha256 "97bfaa6919cb5faaaac7f9ea071bcd1aa724b595eee5bbe5793a7e5f593d59da"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.17.2/clockify-cli_0.17.2_Linux_arm64.tar.gz"
-      sha256 "2b5e7ac80e4cf79d51a2302300a339eef123ffff19831da912b7e947603abb15"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.18.0/clockify-cli_0.18.0_Linux_arm64.tar.gz"
+      sha256 "ce0281f38d680080c04b8381df3534f8e0db35c8d4eec2532fa5c0d7175368f7"
     end
   end
 

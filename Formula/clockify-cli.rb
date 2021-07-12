@@ -5,28 +5,28 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.18.0"
+  version "0.18.1"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.18.0/clockify-cli_0.18.0_Darwin_x86_64.tar.gz"
-      sha256 "e0119c782054eefcbaf87eb9ebbbb9124fe6740d8d0843f27ade5ab46f40db7d"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.18.1/clockify-cli_0.18.1_Darwin_x86_64.tar.gz"
+      sha256 "8eb196dcb914cec489c90924944b8618d4124302c5636d8fb0f3b3e2ec01be13"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.18.0/clockify-cli_0.18.0_Darwin_arm64.tar.gz"
-      sha256 "4e7e34de70dd2ba725e445846761123c73d6e3ea723dd2e37fb2add59dc67e9c"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.18.1/clockify-cli_0.18.1_Darwin_arm64.tar.gz"
+      sha256 "f4978ad3afbfa40e2227d8d3f6b4dadf2e4f55726cc8fe257ed8f2173b3fabd2"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.18.0/clockify-cli_0.18.0_Linux_x86_64.tar.gz"
-      sha256 "97bfaa6919cb5faaaac7f9ea071bcd1aa724b595eee5bbe5793a7e5f593d59da"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.18.1/clockify-cli_0.18.1_Linux_x86_64.tar.gz"
+      sha256 "79f99e9144273d367bcef99d83184c4aa8d2b86e0ba7b8dcda8ee1d6faff5a93"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.18.0/clockify-cli_0.18.0_Linux_arm64.tar.gz"
-      sha256 "ce0281f38d680080c04b8381df3534f8e0db35c8d4eec2532fa5c0d7175368f7"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.18.1/clockify-cli_0.18.1_Linux_arm64.tar.gz"
+      sha256 "6f0360fd165ab6e9da3576285ee93d57be8d381f9d04799e3e31ad98019882d2"
     end
   end
 

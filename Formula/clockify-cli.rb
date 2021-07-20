@@ -5,28 +5,28 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.19.2"
+  version "0.19.3"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.2/clockify-cli_0.19.2_Darwin_x86_64.tar.gz"
-      sha256 "6a73b83ba155e671839e381633e85312b13de718e2a75f8b1dde6bb82c7842ac"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.3/clockify-cli_0.19.3_Darwin_x86_64.tar.gz"
+      sha256 "5dcbbff88add67dc59e891b31793f3b8ca3099674e9e6d059f35d41eb32a39db"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.2/clockify-cli_0.19.2_Darwin_arm64.tar.gz"
-      sha256 "065a05dbba404612cf34249c5fdae391f41bf8659e221f4284d9632cad12f8ce"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.3/clockify-cli_0.19.3_Darwin_arm64.tar.gz"
+      sha256 "3fbfaf15be58df6887743989afeb480e49f88421b5f30193c7ba7831b89e0f50"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.2/clockify-cli_0.19.2_Linux_x86_64.tar.gz"
-      sha256 "feff876a3a165e63bc113548c4390cdbe6e57d02bcf78fbd43e15326992cdfb9"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.3/clockify-cli_0.19.3_Linux_x86_64.tar.gz"
+      sha256 "e2f16cb68b5c498265e09d84a7ab1216df3f87fec24314b59cca16e3ccf6f831"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.2/clockify-cli_0.19.2_Linux_arm64.tar.gz"
-      sha256 "d32bca357786ff81616838155dff22c51ab321cde17da00fa68ae4496e8554b7"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.3/clockify-cli_0.19.3_Linux_arm64.tar.gz"
+      sha256 "ee0f1721779dcdbd70b64f83371b18f76e2683054644cb833a2e61817cf43ba3"
     end
   end
 

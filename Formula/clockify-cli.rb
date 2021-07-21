@@ -5,28 +5,28 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.19.3"
+  version "0.19.4"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.3/clockify-cli_0.19.3_Darwin_x86_64.tar.gz"
-      sha256 "5dcbbff88add67dc59e891b31793f3b8ca3099674e9e6d059f35d41eb32a39db"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.4/clockify-cli_0.19.4_Darwin_x86_64.tar.gz"
+      sha256 "87e2998316557799b0aa817fd6fd1fc2d0a0647eea2602af1da0d16e195308d2"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.3/clockify-cli_0.19.3_Darwin_arm64.tar.gz"
-      sha256 "3fbfaf15be58df6887743989afeb480e49f88421b5f30193c7ba7831b89e0f50"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.4/clockify-cli_0.19.4_Darwin_arm64.tar.gz"
+      sha256 "42a674d7e6c3cc975e47d858372ac483f1a7f412925fe7eef554c1f0818a66a3"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.3/clockify-cli_0.19.3_Linux_x86_64.tar.gz"
-      sha256 "e2f16cb68b5c498265e09d84a7ab1216df3f87fec24314b59cca16e3ccf6f831"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.4/clockify-cli_0.19.4_Linux_x86_64.tar.gz"
+      sha256 "aedf9d0a84b772ed0a908aff62ddbd87f76425d3f3ef854db3b4e05752a91028"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.3/clockify-cli_0.19.3_Linux_arm64.tar.gz"
-      sha256 "ee0f1721779dcdbd70b64f83371b18f76e2683054644cb833a2e61817cf43ba3"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.4/clockify-cli_0.19.4_Linux_arm64.tar.gz"
+      sha256 "bb3278d46be26d2e5d08033a75bd83a2af4818977369cac71758d07c95bf18f3"
     end
   end
 

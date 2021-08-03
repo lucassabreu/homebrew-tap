@@ -5,28 +5,28 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.19.4"
+  version "0.19.5"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.4/clockify-cli_0.19.4_Darwin_x86_64.tar.gz"
-      sha256 "87e2998316557799b0aa817fd6fd1fc2d0a0647eea2602af1da0d16e195308d2"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.5/clockify-cli_0.19.5_Darwin_x86_64.tar.gz"
+      sha256 "b975b1d13149dc52c700f6adb6808136a524010bb0b41e551c8e519b2e1fa7f9"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.4/clockify-cli_0.19.4_Darwin_arm64.tar.gz"
-      sha256 "42a674d7e6c3cc975e47d858372ac483f1a7f412925fe7eef554c1f0818a66a3"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.5/clockify-cli_0.19.5_Darwin_arm64.tar.gz"
+      sha256 "3274557bb3dba0f62b76d43717a5c2c6661bd25a5bf8107448c298396050c1f0"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.4/clockify-cli_0.19.4_Linux_x86_64.tar.gz"
-      sha256 "aedf9d0a84b772ed0a908aff62ddbd87f76425d3f3ef854db3b4e05752a91028"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.5/clockify-cli_0.19.5_Linux_x86_64.tar.gz"
+      sha256 "42b5f5af60f248fff240e9c4b096f8f79c21bcf510203e2dc77a6a528f180981"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.4/clockify-cli_0.19.4_Linux_arm64.tar.gz"
-      sha256 "bb3278d46be26d2e5d08033a75bd83a2af4818977369cac71758d07c95bf18f3"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.5/clockify-cli_0.19.5_Linux_arm64.tar.gz"
+      sha256 "76c08439d850098d60f0420fb61ed9d249cbdec925c481d317553a7be3681fc7"
     end
   end
 

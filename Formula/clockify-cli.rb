@@ -5,28 +5,28 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.19.5"
+  version "0.20.0"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.5/clockify-cli_0.19.5_Darwin_x86_64.tar.gz"
-      sha256 "b975b1d13149dc52c700f6adb6808136a524010bb0b41e551c8e519b2e1fa7f9"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.20.0/clockify-cli_0.20.0_Darwin_x86_64.tar.gz"
+      sha256 "fc8e3d44e23cd4ee7b0a9bce2072acb0099dc8f5d54d4a6c1fc13b41985c4f7f"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.5/clockify-cli_0.19.5_Darwin_arm64.tar.gz"
-      sha256 "3274557bb3dba0f62b76d43717a5c2c6661bd25a5bf8107448c298396050c1f0"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.20.0/clockify-cli_0.20.0_Darwin_arm64.tar.gz"
+      sha256 "b26f39a485893ba2f467504b983b85a6fc6027ede0ef7d75756960c1260dfcb1"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.5/clockify-cli_0.19.5_Linux_x86_64.tar.gz"
-      sha256 "42b5f5af60f248fff240e9c4b096f8f79c21bcf510203e2dc77a6a528f180981"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.20.0/clockify-cli_0.20.0_Linux_x86_64.tar.gz"
+      sha256 "db7c845eaf43e4a0926680bb821f535e3a22f9b317bfb6b8da61d78fd66efc2b"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.19.5/clockify-cli_0.19.5_Linux_arm64.tar.gz"
-      sha256 "76c08439d850098d60f0420fb61ed9d249cbdec925c481d317553a7be3681fc7"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.20.0/clockify-cli_0.20.0_Linux_arm64.tar.gz"
+      sha256 "c5536702c8e2d7d219be4cc43287b66c1e4d6034ea64fdb7cdab4b297911d2d8"
     end
   end
 

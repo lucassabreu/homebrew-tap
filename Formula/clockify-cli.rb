@@ -5,28 +5,28 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.21.0"
+  version "0.21.1"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.0/clockify-cli_0.21.0_Darwin_x86_64.tar.gz"
-      sha256 "64d10ed5cd83034f4c37a282c82fda7132ca0b731067a45238adb77036ab0cf2"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.1/clockify-cli_0.21.1_Darwin_x86_64.tar.gz"
+      sha256 "8b2b18bacaf8087ede79c573a20d5ea32c6ba1091b330813d2e218c207dbedbd"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.0/clockify-cli_0.21.0_Darwin_arm64.tar.gz"
-      sha256 "022f49881c2f5fa1bb2cfbd3471192483ac41b18f88f4729c5c57c31d6998c26"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.1/clockify-cli_0.21.1_Darwin_arm64.tar.gz"
+      sha256 "3e33dd57c3d02f4bbac67ac2d9d8641c295395add41cc487dae1527f580bef57"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.0/clockify-cli_0.21.0_Linux_x86_64.tar.gz"
-      sha256 "67b584214f26afa0d98c7613512548a1d131dc72d41bda77167c1a98bfcf0b48"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.1/clockify-cli_0.21.1_Linux_x86_64.tar.gz"
+      sha256 "335b2894e5b0addbbc369e6c87ab5442d142e18732d134e555f22a2440a60498"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.0/clockify-cli_0.21.0_Linux_arm64.tar.gz"
-      sha256 "9470ce756ff744879c91e50e7c8139797fe2a0aeee1e5ad967555138f9fde23b"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.1/clockify-cli_0.21.1_Linux_arm64.tar.gz"
+      sha256 "c664ad45146672b2ca5f4f9d5a1ded3d5cde537b00471bce6c075897cf0cc205"
     end
   end
 

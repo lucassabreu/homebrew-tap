@@ -5,28 +5,28 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.21.1"
+  version "0.21.0"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.1/clockify-cli_0.21.1_Darwin_x86_64.tar.gz"
-      sha256 "8b2b18bacaf8087ede79c573a20d5ea32c6ba1091b330813d2e218c207dbedbd"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.0/clockify-cli_0.21.0_Darwin_x86_64.tar.gz"
+      sha256 "143f245455e00a93d108a3245cb25888289931a8b9b167800eee0f386bf6fe6f"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.1/clockify-cli_0.21.1_Darwin_arm64.tar.gz"
-      sha256 "3e33dd57c3d02f4bbac67ac2d9d8641c295395add41cc487dae1527f580bef57"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.0/clockify-cli_0.21.0_Darwin_arm64.tar.gz"
+      sha256 "fb8e88afb8d0d37bbfd91af929034d00b84b01d444ba7810e3872ac1ad0638be"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.1/clockify-cli_0.21.1_Linux_x86_64.tar.gz"
-      sha256 "335b2894e5b0addbbc369e6c87ab5442d142e18732d134e555f22a2440a60498"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.0/clockify-cli_0.21.0_Linux_x86_64.tar.gz"
+      sha256 "da10b294a6480150ac1b0ad77b2879885e28cb421d37bcb6bdc79aedf1be8a5d"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.1/clockify-cli_0.21.1_Linux_arm64.tar.gz"
-      sha256 "c664ad45146672b2ca5f4f9d5a1ded3d5cde537b00471bce6c075897cf0cc205"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.0/clockify-cli_0.21.0_Linux_arm64.tar.gz"
+      sha256 "ab9803a9b01a1b558cadc4ba5cd43ad8dc013614a9f8baba2f97139cee74ad1c"
     end
   end
 

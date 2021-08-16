@@ -5,28 +5,28 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.20.0"
+  version "0.21.0"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.20.0/clockify-cli_0.20.0_Darwin_x86_64.tar.gz"
-      sha256 "fc8e3d44e23cd4ee7b0a9bce2072acb0099dc8f5d54d4a6c1fc13b41985c4f7f"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.0/clockify-cli_0.21.0_Darwin_x86_64.tar.gz"
+      sha256 "090fda00d384b6343de089cb69f94fd37c1744cd9d81dbf7e1ed92493e18cbed"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.20.0/clockify-cli_0.20.0_Darwin_arm64.tar.gz"
-      sha256 "b26f39a485893ba2f467504b983b85a6fc6027ede0ef7d75756960c1260dfcb1"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.0/clockify-cli_0.21.0_Darwin_arm64.tar.gz"
+      sha256 "b8bacab53011c2d1406836275f5ab41bbbb536d28757c14c6d79247084b8a696"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.20.0/clockify-cli_0.20.0_Linux_x86_64.tar.gz"
-      sha256 "db7c845eaf43e4a0926680bb821f535e3a22f9b317bfb6b8da61d78fd66efc2b"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.0/clockify-cli_0.21.0_Linux_x86_64.tar.gz"
+      sha256 "84d770eb552b15e3d51c2bc7ecf5e2255261b26499f813235af02d43ce382268"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.20.0/clockify-cli_0.20.0_Linux_arm64.tar.gz"
-      sha256 "c5536702c8e2d7d219be4cc43287b66c1e4d6034ea64fdb7cdab4b297911d2d8"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.21.0/clockify-cli_0.21.0_Linux_arm64.tar.gz"
+      sha256 "9ff710a02e669ce9a6c2938d95b5581388a0a980dde35d7b6c6d49b79d4ee8ce"
     end
   end
 

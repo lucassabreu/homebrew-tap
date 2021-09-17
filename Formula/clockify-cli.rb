@@ -5,28 +5,28 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.23.0"
+  version "0.23.1"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.23.0/clockify-cli_0.23.0_Darwin_x86_64.tar.gz"
-      sha256 "4a13b7bead09e90e4454d15191f1d11989b9dc728f4d03d3e3b90928d19377b7"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.23.1/clockify-cli_0.23.1_Darwin_x86_64.tar.gz"
+      sha256 "02c469b4e1cd7ac44ebf88878bee448640e96f9b542af821b6438df2284da714"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.23.0/clockify-cli_0.23.0_Darwin_arm64.tar.gz"
-      sha256 "38cb51d2861d701d57f806fab73bcc71d06fdc5a1dee9dacf7b42512642c1b5b"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.23.1/clockify-cli_0.23.1_Darwin_arm64.tar.gz"
+      sha256 "ca4c311d165105bc5bcca7a1a95c7a7fbf7c3891ad8f9b1dc1a9baec2dbf8bd9"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.23.0/clockify-cli_0.23.0_Linux_x86_64.tar.gz"
-      sha256 "035e5699caaebb4d5f27407a31dec6014885a513d960b27fe06da30d06fe95f0"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.23.1/clockify-cli_0.23.1_Linux_x86_64.tar.gz"
+      sha256 "ef52dca286f39b4540cc12b6819061887e2bce1bc604c5e326216b1443b27f63"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.23.0/clockify-cli_0.23.0_Linux_arm64.tar.gz"
-      sha256 "a2c1a2af940eaa2b2662f8545d0af4ff64322d06ad74702a8c3a6d2c93f7788b"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.23.1/clockify-cli_0.23.1_Linux_arm64.tar.gz"
+      sha256 "a2be3e0fd57088139159897f4f6cb5b154a29eaece22f39d7afdda6b34795e72"
     end
   end
 

@@ -5,28 +5,28 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.23.1"
+  version "0.24.0"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.23.1/clockify-cli_0.23.1_Darwin_x86_64.tar.gz"
-      sha256 "02c469b4e1cd7ac44ebf88878bee448640e96f9b542af821b6438df2284da714"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.0/clockify-cli_0.24.0_Darwin_x86_64.tar.gz"
+      sha256 "ee696ac3a68b10199557e75d4e3708469802791035865f1d1f8e1b91efb68d28"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.23.1/clockify-cli_0.23.1_Darwin_arm64.tar.gz"
-      sha256 "ca4c311d165105bc5bcca7a1a95c7a7fbf7c3891ad8f9b1dc1a9baec2dbf8bd9"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.0/clockify-cli_0.24.0_Darwin_arm64.tar.gz"
+      sha256 "dccc7c97ad0d64b8c342dd8b708ab99a86954219a90159d8819850619bdfe302"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.23.1/clockify-cli_0.23.1_Linux_x86_64.tar.gz"
-      sha256 "ef52dca286f39b4540cc12b6819061887e2bce1bc604c5e326216b1443b27f63"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.0/clockify-cli_0.24.0_Linux_x86_64.tar.gz"
+      sha256 "3f007c91262ff69b5e86da91fc31e7e21f3440871795c3d2f419b1b5faaad787"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.23.1/clockify-cli_0.23.1_Linux_arm64.tar.gz"
-      sha256 "a2be3e0fd57088139159897f4f6cb5b154a29eaece22f39d7afdda6b34795e72"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.0/clockify-cli_0.24.0_Linux_arm64.tar.gz"
+      sha256 "d9471cd2fe2d9cc2471f20235f89a57935ce15db21bc614f98b108bec576baa5"
     end
   end
 

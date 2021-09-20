@@ -5,28 +5,28 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.24.0"
+  version "0.24.1"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.0/clockify-cli_0.24.0_Darwin_x86_64.tar.gz"
-      sha256 "ee696ac3a68b10199557e75d4e3708469802791035865f1d1f8e1b91efb68d28"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.1/clockify-cli_0.24.1_Darwin_x86_64.tar.gz"
+      sha256 "af1e2606898e3b85a0cda758f54f4d9caf81538a794303f9529964f6287049aa"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.0/clockify-cli_0.24.0_Darwin_arm64.tar.gz"
-      sha256 "dccc7c97ad0d64b8c342dd8b708ab99a86954219a90159d8819850619bdfe302"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.1/clockify-cli_0.24.1_Darwin_arm64.tar.gz"
+      sha256 "44f9e92fdbd9f064b1666d72cf63d39639c49b4c7e58e82669e7218907a7a3e4"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.0/clockify-cli_0.24.0_Linux_x86_64.tar.gz"
-      sha256 "3f007c91262ff69b5e86da91fc31e7e21f3440871795c3d2f419b1b5faaad787"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.1/clockify-cli_0.24.1_Linux_x86_64.tar.gz"
+      sha256 "171e210d5f5e31962df338c5fc475d6a93de2c0910d911b2ee6e7b38176fecd5"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.0/clockify-cli_0.24.0_Linux_arm64.tar.gz"
-      sha256 "d9471cd2fe2d9cc2471f20235f89a57935ce15db21bc614f98b108bec576baa5"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.1/clockify-cli_0.24.1_Linux_arm64.tar.gz"
+      sha256 "3c4c4d37e03d3ad479b24510b13636f6737c38d57c612e9b213f2edb18210ec5"
     end
   end
 

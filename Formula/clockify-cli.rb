@@ -5,28 +5,28 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.24.1"
+  version "0.25.0"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.1/clockify-cli_0.24.1_Darwin_x86_64.tar.gz"
-      sha256 "af1e2606898e3b85a0cda758f54f4d9caf81538a794303f9529964f6287049aa"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.25.0/clockify-cli_0.25.0_Darwin_x86_64.tar.gz"
+      sha256 "0f436d54ac248d8a69349f05c8e2d448c5da49b11c1d45c69e75ca28c193e358"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.1/clockify-cli_0.24.1_Darwin_arm64.tar.gz"
-      sha256 "44f9e92fdbd9f064b1666d72cf63d39639c49b4c7e58e82669e7218907a7a3e4"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.25.0/clockify-cli_0.25.0_Darwin_arm64.tar.gz"
+      sha256 "03f0b1b7a3bca030c95eaa85af046033beee5350e7ff1f2a73180b549b33676b"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.1/clockify-cli_0.24.1_Linux_x86_64.tar.gz"
-      sha256 "171e210d5f5e31962df338c5fc475d6a93de2c0910d911b2ee6e7b38176fecd5"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.25.0/clockify-cli_0.25.0_Linux_x86_64.tar.gz"
+      sha256 "844c0859cdb98fff9635d141ee0986add81b359d160f0b4988cd41c75c8cdf82"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.24.1/clockify-cli_0.24.1_Linux_arm64.tar.gz"
-      sha256 "3c4c4d37e03d3ad479b24510b13636f6737c38d57c612e9b213f2edb18210ec5"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.25.0/clockify-cli_0.25.0_Linux_arm64.tar.gz"
+      sha256 "ea9df86e8d68d242342520974e5767a900a417072932fae2f827093053a368ba"
     end
   end
 

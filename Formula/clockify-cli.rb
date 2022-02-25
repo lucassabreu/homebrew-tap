@@ -5,20 +5,20 @@
 class ClockifyCli < Formula
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.32.1"
+  version "0.32.2"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.32.1/clockify-cli_0.32.1_Darwin_x86_64.tar.gz"
-      sha256 "21156704a957572b700e1b9307c941b8ae85df948886e39b458b9125d36b605a"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.32.2/clockify-cli_0.32.2_Darwin_x86_64.tar.gz"
+      sha256 "fc483af7e79f576c21f756c3088fc439a2a0aec5c0b35dceb92550b0e6355982"
 
       def install
         bin.install "clockify-cli"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.32.1/clockify-cli_0.32.1_Darwin_arm64.tar.gz"
-      sha256 "e3a0a8acb11d3f42e9033e73b13a2d97d9424e6b6c02dbfe01028b684c348b51"
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.32.2/clockify-cli_0.32.2_Darwin_arm64.tar.gz"
+      sha256 "0cbf6a57095d4bcfafc18bfd67b1f8175f8a83e01ae74f90c70f8b9048b96127"
 
       def install
         bin.install "clockify-cli"
@@ -27,17 +27,17 @@ class ClockifyCli < Formula
   end
 
   on_linux do
-    if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.32.1/clockify-cli_0.32.1_Linux_arm64.tar.gz"
-      sha256 "d5dec0b4b281c60c0019a228c8cc19aab48be72eaf15f1b5632bc5819aec6e86"
+    if Hardware::CPU.intel?
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.32.2/clockify-cli_0.32.2_Linux_x86_64.tar.gz"
+      sha256 "0029c47451e24699494d9b67b427cb3cf79588cac1d228827f41ee4101c74a1b"
 
       def install
         bin.install "clockify-cli"
       end
     end
-    if Hardware::CPU.intel?
-      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.32.1/clockify-cli_0.32.1_Linux_x86_64.tar.gz"
-      sha256 "9a4dec6e50698ae25e1f91c52aa9d26eef37c0cf20243a112c0330f5ba30a842"
+    if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
+      url "https://github.com/lucassabreu/clockify-cli/releases/download/v0.32.2/clockify-cli_0.32.2_Linux_arm64.tar.gz"
+      sha256 "213381cd03c3df8ca51b37b16b2fcc13fbb51d3a7e9d75f799c0ccac60744ce0"
 
       def install
         bin.install "clockify-cli"

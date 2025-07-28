@@ -5,4 +5,9 @@ My Homebrew Tap
 
 My Brews:
 
-* [Clockify CLI](https://github.com/lucassabreu/clockify-cli) 
+[Clockify CLI](https://github.com/lucassabreu/clockify-cli) 
+---
+
+```sh
+brew install --cask lucassabreu/tap/clockify-cli
+```

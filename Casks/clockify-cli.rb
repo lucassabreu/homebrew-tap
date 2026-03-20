@@ -3,7 +3,7 @@ cask "clockify-cli" do
   name "clockify-cli"
   desc "Helps to interact with Clockfy's API"
   homepage "https://github.com/lucassabreu/clockify-cli"
-  version "0.61.1"
+  version "0.62.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "clockify-cli" do
   on_macos do
     on_intel do
       url "https://github.com/lucassabreu/clockify-cli/releases/download/v#{version}/clockify-cli_Darwin_x86_64.tar.gz"
-      sha256 "f94fc711250a3b85d842e03ab0e03b690e6f790eb92d6bde6ef6c803100b855d"
+      sha256 "4990fc27a9bee7974178dab0179991c032dee4b89158fdda62c6f59b503e4bf2"
     end
     on_arm do
       url "https://github.com/lucassabreu/clockify-cli/releases/download/v#{version}/clockify-cli_Darwin_arm64.tar.gz"
-      sha256 "bf83244c2fc143be316ecabe24879acdf22201da1175ff1f85b2539ebf2b2fc0"
+      sha256 "c554100faf10ded6b6acf555ec4570195f1e8de1846cab001c8df354d5aaaec1"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/lucassabreu/clockify-cli/releases/download/v#{version}/clockify-cli_Linux_x86_64.tar.gz"
-      sha256 "dcb43e8f89a75147f47d3642461a5b0df9f8dbd1b7b4ee53eaef78fc07495617"
+      sha256 "59efffff4bc3364e71b94c97fd7cc58db2c2315a8f476b5fe36b6135df32f9d6"
     end
     on_arm do
       url "https://github.com/lucassabreu/clockify-cli/releases/download/v#{version}/clockify-cli_Linux_arm64.tar.gz"
-      sha256 "937e454c8337353f8a9d996406f9675adbf0fc57195729bc727c8994198a1336"
+      sha256 "f29819a91b03f8b67faefbf465eaac32dc679ee0deaaf883c3c13fea2aa7ad14"
     end
   end
 
